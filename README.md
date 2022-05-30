@@ -1,9 +1,9 @@
-## How to run from Terminal
+## Как запустить из терминала
 
-#### For web config local mode:
+#### Локально:
 
 - <code><strong>gradle clean test --tests WebTest -Denv=local</strong></code>
 
-#### For web config remote mode:
+#### Удаленно:
 
 - <code><strong>gradle clean test --tests WebTest -Denv=remote</strong></code>
