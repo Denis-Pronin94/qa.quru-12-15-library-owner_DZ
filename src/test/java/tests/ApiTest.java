@@ -12,6 +12,6 @@ public class ApiTest {
 
         ApiConfig apiconfig = ConfigFactory.create(ApiConfig.class, System.getProperties());
         assertThat(apiconfig.baseUrl()).isEqualTo("https://github.com");
-        assertThat(apiconfig.token()).isEqualTo("123");
+        assertThat(apiconfig.token()).isEqualTo("ea135929105c4f29a0f5117d2960926f");
     }
 }
