@@ -10,8 +10,8 @@ public class ApiTest {
     @Test
     void apiTestCheck() {
 
-        ApiConfig config = ConfigFactory.create(ApiConfig.class, System.getProperties());
-        assertThat(config.baseUrl()).isEqualTo("https://github.com");
-        assertThat(config.token()).isEqualTo("123");
+        ApiConfig apiconfig = ConfigFactory.create(ApiConfig.class, System.getProperties());
+        assertThat(apiconfig.baseUrl()).isEqualTo("https://github.com");
+        assertThat(apiconfig.token()).isEqualTo("123");
     }
 }
