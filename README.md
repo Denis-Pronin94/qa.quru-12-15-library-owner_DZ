@@ -10,5 +10,5 @@
 
 #### API:
 
-- <code><strong>gradle clean test --tests ApiTest -DbaseUrl=https://github.com -Dtoken=123</strong></code>
+- <code><strong>gradle clean test --tests ApiTest -DbaseUrl= -Dtoken=</strong></code>
 - <code><strong>gradle clean test --tests ApiTest</strong></code>
