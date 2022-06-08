@@ -17,9 +17,8 @@ public class TestBase {
         if (!webConfig.getRemoteWebDriver().equals("")) {
             Configuration.remote = webConfig.getRemoteWebDriver();
         }
-        String baseUrlString = System.getProperty("baseUrl");
-        if (baseUrlString == null) {
-            baseUrlString = "https://github.com";
+        if (System.getProperty("baseUrl") == null) {
+            System.setProperty("baseUrl", "https://github.com");
         }
     }
 }
